@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 type Theme = "light" | "dark";
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>("light");
+  const [theme, setTheme] = useState<Theme | null>(null);
 
   useEffect(() => {
     const savedTheme = document.documentElement.dataset["theme"];
@@ -27,7 +27,7 @@ export function ThemeToggle() {
     <button
       className="theme-toggle"
       type="button"
-      aria-label={`Switch to ${theme === "light" ? "dark" : "light"} theme`}
+      aria-label="Toggle theme"
       aria-pressed={theme === "dark"}
       onClick={toggleTheme}
     >
