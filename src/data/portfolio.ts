@@ -2,7 +2,7 @@ export const portfolio = {
   name: "Lakshay Sain",
   role: "4th-year B.Tech Computer Science student",
   university: "Delhi Technological University",
-  interests: "software development, web development, AI, Android, DSA, and developer tools",
+  interests: "software development, web development, AI, DSA, and developer tools",
   status: "building AI-powered tools and full-stack projects",
 };
 
@@ -45,7 +45,7 @@ export const skillRows = [
 ];
 
 export const socialLinks = [
-  { label: "github ↗", url: "https://github.com/" },
-  { label: "linkedin ↗", url: "https://www.linkedin.com/" },
-  { label: "leetcode ↗", url: "https://leetcode.com/" },
+  { label: "github ↗", url: "https://github.com/LakshaySain2005" },
+  { label: "linkedin ↗", url: "https://www.linkedin.com/in/lakshaysain005" },
+  { label: "leetcode ↗", url: "https://leetcode.com/u/LakshaySain_2005/" },
 ];
