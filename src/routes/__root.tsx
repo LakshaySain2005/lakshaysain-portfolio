@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { useLenis } from "../hooks/use-lenis";
 
 const themeBootstrap = `(() => {
   try {
@@ -133,6 +134,7 @@ function RootShell({ children }: { children: ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+  useLenis();
 
   return (
     <QueryClientProvider client={queryClient}>
