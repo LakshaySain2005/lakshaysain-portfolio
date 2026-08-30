@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 type Theme = "light" | "dark";
 
 function getInitialTheme(): Theme {
-  if (typeof document !== "undefined" && document.documentElement.dataset.theme === "dark") {
+  if (typeof document !== "undefined" && document.documentElement.dataset["theme"] === "dark") {
     return "dark";
   }
 
@@ -22,13 +22,13 @@ export function ThemeToggle() {
           ? "dark"
           : "light";
 
-    document.documentElement.dataset.theme = nextTheme;
+    document.documentElement.dataset["theme"] = nextTheme;
     setTheme(nextTheme);
   }, []);
 
   const toggleTheme = () => {
     const nextTheme: Theme = theme === "light" ? "dark" : "light";
-    document.documentElement.dataset.theme = nextTheme;
+    document.documentElement.dataset["theme"] = nextTheme;
     window.localStorage.setItem("theme", nextTheme);
     setTheme(nextTheme);
   };
