@@ -1,47 +1,48 @@
 export const portfolio = {
   name: "Lakshay Sain",
-  role: "4th-year B.Tech Computer Science student",
+  role: "Computer Science undergraduate",
   university: "Delhi Technological University",
-  interests: "software development, web development, AI, DSA, and developer tools",
-  status: "building AI-powered tools and full-stack projects",
+  interests: "full-stack software development, AI-powered product development, and clean, standards-compliant code",
+  status: "building full-stack software and AI-powered products",
 };
 
 export const projects = [
   {
-    name: "ALUMNET",
-    label: "<full stack>",
+    name: "Welth",
+    label: "<full stack / AI>",
     description:
-      "a university alumni networking platform designed to connect students, alumni, and recruiters through a centralized system.",
-    technologies: "Next.js · Node.js · PostgreSQL",
-    url: "https://github.com/",
+      "a full-stack personal finance platform covering account management, budgeting, and transaction flows, with AI-powered receipt parsing.",
+    technologies: "Next.js · React · PostgreSQL · Prisma · Gemini API",
+    url: "https://github.com/LakshaySain2005/Welth",
     linkLabel: "view project ↗",
   },
   {
-    name: "ReelDigest AI",
-    label: "<AI / Android>",
+    name: "QuickCart",
+    label: "<web development>",
     description:
-      "an AI-powered Android application that turns long-form YouTube content into concise, useful summaries.",
-    technologies: "Kotlin · Gemini API · Android",
-    url: "https://github.com/",
+      "a responsive e-commerce frontend covering product listing, cart, checkout, and seller dashboard flows.",
+    technologies: "React · JavaScript · Tailwind CSS",
+    url: "https://github.com/LakshaySain2005/QuickCart",
     linkLabel: "view project ↗",
   },
 ];
 
 export const experience = [
   {
-    role: "student developer",
-    organization: "Delhi Technological University",
+    role: "Software Analyst",
+    organization: "Agnirva",
     description:
-      "learning by building projects across web, mobile, AI, and problem solving.",
-    technologies: "C++ · JavaScript · Python · React",
+      "reviewing open-source C/C++ aerospace modules, documenting data-processing pipelines, and auditing simulation workflows against safety and data-governance standards.",
+    technologies: "C/C++ · Python · REST APIs · JSON · MISRA-C",
   },
 ];
 
 export const skillRows = [
-  "C++ · JavaScript · TypeScript · Python",
-  "React · Next.js · Node.js · Express",
-  "MongoDB · PostgreSQL · Git · Docker",
-  "Android · Firebase · REST APIs",
+  "C++ · Python · JavaScript",
+  "Next.js · React.js · Express.js · Tailwind CSS",
+  "PostgreSQL · Supabase · Prisma · Inngest",
+  "Clerk · Arcjet · Gemini API · Git · GitHub",
+  "REST APIs · Data Structures & Algorithms · OOPs · DBMS",
 ];
 
 export const socialLinks = [
